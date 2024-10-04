@@ -7,3 +7,7 @@
 
 main {min-height: 100vh; display: flex; flex-direction: column;}
 .contentArea {flex: 1;}
+
+body {background-color: #e0e0e0;}
+header, footer {background-color: rosybrown;}
+header .logo img{height: 60px;}
