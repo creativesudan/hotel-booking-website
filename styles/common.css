@@ -4,3 +4,6 @@
 .footer_content {display: flex; justify-content: space-between; padding: 20px 0; align-items: center;}
 .footer_content p {margin-bottom: 0;}
 .header_content {display: flex; justify-content: space-between; align-items: center;}
+
+main {min-height: 100vh; display: flex; flex-direction: column;}
+.contentArea {flex: 1;}
