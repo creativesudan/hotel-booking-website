@@ -1,0 +1,2 @@
+.grid_listing img{width: 100%; height: 200px; object-fit: cover; object-position: center;}
+.grid_listing .rounded_paper {border-radius: 8px; overflow: hidden; display: block;}

@@ -7,28 +7,80 @@
         
         <!-- Import CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/detail.css">
     </head>
 
     <body>
       <main>
         <header>
           <div class="container">
-            <a href="index.html" class="logo">
-              <img src="assests/images/logo.png" id="logo-image" alt="logo" height=120px"/>
-            </a>
-              Header Div
+            <div class="header_content">
+              <a href="index.html" class="logo">
+                <img src="assests/images/logo.png" id="logo-image" alt="logo" height="120px"/>
+              </a>
+              <a href="login.html" target="_new">Login</a>
+            </div>
           </div>
         </header>
-        <div>
+        
+        <div class="contentArea">
           <div class="container">
-            Content Div
+
+            <div class="mainbanner">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="banner"/>
+            </div>
+
+            <div class="my-4 content_01">
+              <a href="payment.html" class="btn btn-primary">Book Now</a>
+
+              <div class="hotel_details mt-4">
+                <h1>Radisson Blu Hotel</h1>
+                <h5>Rating</h5>
+                <p>5 Star</p>
+
+                <div class="my-5">
+                  <h4>Amenities</h4>
+                  <ul>
+                    <li>Amenities 1</li>
+                    <li>Amenities 2</li>
+                    <li>Amenities 3</li>
+                    <li>Laundary</li>
+                    <li>Pool</li>
+                  </ul>
+                </div>
+
+                <div class="my-5">
+                  <h6>DESCRIPTIONS</h6>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div>
+
+              </div>
+            </div>
+
           </div>
         </div>
+        
         <footer>
           <div class="container">
-            Footer Div
+            <div class="footer_content">
+              <a href="contact.html" target="_blank">Contact Us</a>
+              <p>© 2020 ROOM SEARCH PVT. LTD.</p>
+              <div class="social_media_icons">
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="assests/images/facebook.png" target="facebook"/>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img src="assests/images/instagram.png" target="Instagram"/>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                  <img src="assests/images/twitter.png" target="Twitter"/>
+                </a>
+              </div>
+            </div>
           </div>
         </footer>
+
       </main>
     </body>
 </html>

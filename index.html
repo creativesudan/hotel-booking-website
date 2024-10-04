@@ -7,28 +7,70 @@
         
         <!-- Import CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/index.css">
     </head>
 
     <body>
       <main>
+
         <header>
           <div class="container">
-            <a href="index.html" class="logo">
-              <img src="assests/images/logo.png" id="logo-image" alt="logo" height=120px"/>
-            </a>
-              Header Div
+            <div class="header_content">
+              <a href="index.html" class="logo">
+                <img src="assests/images/logo.png" id="logo-image" alt="logo" height="120px"/>
+              </a>
+              <a href="login.html" target="_new">Login</a>
+            </div>
           </div>
         </header>
-        <div>
+
+        <div class="contentArea">
           <div class="container">
-            Content Div
+            <div>Search Bar</div>
+            
+            <div class="row grid_listing">
+              <div class="col-3">
+                <a href="list.html" class="rounded_paper"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="Delhi"/></a>
+              </div>
+              <div class="col-3">
+                <a class="rounded_paper"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa"/></a>
+              </div>
+              <div class="col-3">
+                <a class="rounded_paper"><img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="Hyedrabad"/></a>
+              </div>
+              <div class="col-3">
+                <a class="rounded_paper"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="Calcutta"/></a>
+              </div>
+            </div>
+
+            <div class="text-center mt-4">
+              <a href="">View More >></a>
+            </div>
+          
           </div>
         </div>
+
         <footer>
           <div class="container">
-            Footer Div
+            <div class="footer_content">
+              <a href="contact.html" target="_blank">Contact Us</a>
+              <p>© 2020 ROOM SEARCH PVT. LTD.</p>
+              <div class="social_media_icons">
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="assests/images/facebook.png" target="facebook"/>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img src="assests/images/instagram.png" target="Instagram"/>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                  <img src="assests/images/twitter.png" target="Twitter"/>
+                </a>
+              </div>
+            </div>
           </div>
         </footer>
+
       </main>
     </body>
 </html>

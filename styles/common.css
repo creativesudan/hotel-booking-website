@@ -1,0 +1,6 @@
+.social_media_icons {display: flex; margin: 0 -10px;}
+.social_media_icons a {margin: 0 10px;}
+.social_media_icons img {width: 24px;}
+.footer_content {display: flex; justify-content: space-between; padding: 20px 0; align-items: center;}
+.footer_content p {margin-bottom: 0;}
+.header_content {display: flex; justify-content: space-between; align-items: center;}
